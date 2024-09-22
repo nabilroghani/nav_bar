@@ -9,17 +9,23 @@ body{
 }
 ul{
     list-style-type: none;
-    background-color: black;
+    background-color: rgba(204, 19, 19, 0.733);
     color: white;
 }
 ul li{
     display: inline-block;
     padding: 10px;
 }
+ul li img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
 ul li:hover{
     background-color: green;
     color: white;
 }
+/* dropdown */
 .dropdown {
     display: none;
 }
